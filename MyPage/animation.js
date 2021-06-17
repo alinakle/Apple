@@ -6,6 +6,12 @@ window.onscroll = function () {
     if (checkView(ele1)) {
         ele1.style.opacity = '1';
     }
+
+    const ele2 = document.getElementById('thirdSectionTextInner');
+
+    if (checkView(ele2)) {
+        ele2.style.opacity = '1';
+    }
 };
 
 function scrollRotate() {
