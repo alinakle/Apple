@@ -112,9 +112,15 @@ body{
     font-size: 3vw;
     font-style: normal;
 }
-#headlines {
+
+#headlines , #thirdSectionTextInner, #fifthFirst, #fifthSecond, #sixthSecText{
     opacity: 0;
     transition: opacity 0.7s ease-in-out;
+}
+
+#fifthFirst, #fifthSecond{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 
 #thirdSectionText{
@@ -157,6 +163,10 @@ body{
     font-size: 7vw;
 }
 
+.fourthText{
+    margin-left: 20px;
+}
+
 .textLeftPicRight {
     text-align: left;
     font-size: 4.5vw;
@@ -178,6 +188,7 @@ body{
     text-align: left;
     font-size: 4.5vw;
     display: flex;
+    padding: 70px;
 }
 
 .textRightPicLeft video{
@@ -394,6 +405,7 @@ body{
         font-size: 30px;
         display: inline-block;
         display: grid;
+        padding: 0px;
     }
 
     .textLeftPicRight p, .textRightPicLeft p{

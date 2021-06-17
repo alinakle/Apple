@@ -12,6 +12,24 @@ window.onscroll = function () {
     if (checkView(ele2)) {
         ele2.style.opacity = '1';
     }
+
+    const ele3 = document.getElementById('fifthFirst');
+
+    if (checkView(ele3)) {
+        ele3.style.opacity = '1';
+    }
+
+    const ele4 = document.getElementById('fifthSecond');
+
+    if (checkView(ele4)) {
+        ele4.style.opacity = '1';
+    };
+
+    const ele5 = document.getElementById('sixthSecText');
+
+    if (checkView(ele5)) {
+        ele5.style.opacity = '1';
+    };
 };
 
 function scrollRotate() {
