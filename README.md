@@ -1,3 +1,0 @@
-# ResWebDes
-# ResWebDes
-# ResWebDes
