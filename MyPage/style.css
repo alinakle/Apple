@@ -289,10 +289,10 @@ body{
 
 #footerSection{
     background-color: #1C1C1C;
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 30px;
     font-size: 12px;
     color: #797979;
 }
@@ -312,6 +312,11 @@ body{
     
     #thirdSection p{
         font-size: 1.5em;
+    }
+
+    #footerSection{
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
 }
@@ -455,6 +460,10 @@ body{
         margin-bottom: 100px;
     }
 
+    #footerSection{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
     
 }
 
