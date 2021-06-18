@@ -113,14 +113,14 @@ body{
     font-style: normal;
 }
 
-#headlines , #thirdSectionTextInner, #fifthFirst, #fifthSecond, #sixthSecText{
+#headlines , #thirdSectionTextInner, #sixthSecText{
     opacity: 0;
     transition: opacity 0.7s ease-in-out;
 }
 
 #fifthFirst, #fifthSecond{
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 3s ease-in-out;
 }
 
 #thirdSectionText{
@@ -200,10 +200,14 @@ body{
     font-size: 3vw;
 }
 
+#space{
+    padding-bottom: 200px;
+    background-color: white;
+}
+
 #fifthSection{
     background-color: white;
     margin-top: -25px;
-    padding-top: 200px;
     padding-bottom: 200px;
 }
 
